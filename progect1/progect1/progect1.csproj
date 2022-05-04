@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ABD4BCE0-75F4-4F5F-8DEC-81F516272F03}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>progect1</RootNamespace>
+    <AssemblyName>progect1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Next.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Next.Designer.cs">
+      <DependentUpon>Next.cs</DependentUpon>
+    </Compile>
+    <Compile Include="progect01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progect01.Designer.cs">
+      <DependentUpon>progect01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="progect10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progect10.Designer.cs">
+      <DependentUpon>progect10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="progect11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progect11.Designer.cs">
+      <DependentUpon>progect11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="progect12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progect12.Designer.cs">
+      <DependentUpon>progect12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="progect02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progect02.Designer.cs">
+      <DependentUpon>progect02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="progect03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progect03.Designer.cs">
+      <DependentUpon>progect03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="progect04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progect04.Designer.cs">
+      <DependentUpon>progect04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="progect05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progect05.Designer.cs">
+      <DependentUpon>progect05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="progect06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progect06.Designer.cs">
+      <DependentUpon>progect06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="progect07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progect07.Designer.cs">
+      <DependentUpon>progect07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="progect08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progect08.Designer.cs">
+      <DependentUpon>progect08.cs</DependentUpon>
+    </Compile>
+    <Compile Include="progect09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progect09.Designer.cs">
+      <DependentUpon>progect09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Next.resx">
+      <DependentUpon>Next.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progect01.resx">
+      <DependentUpon>progect01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progect10.resx">
+      <DependentUpon>progect10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progect11.resx">
+      <DependentUpon>progect11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progect02.resx">
+      <DependentUpon>progect02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progect03.resx">
+      <DependentUpon>progect03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progect04.resx">
+      <DependentUpon>progect04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progect05.resx">
+      <DependentUpon>progect05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progect06.resx">
+      <DependentUpon>progect06.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progect07.resx">
+      <DependentUpon>progect07.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progect08.resx">
+      <DependentUpon>progect08.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progect09.resx">
+      <DependentUpon>progect09.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progect12.resx">
+      <DependentUpon>progect12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Osu!_Logo_2016.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iris %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iris %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iris.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
